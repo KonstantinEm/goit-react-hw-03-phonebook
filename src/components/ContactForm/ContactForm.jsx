@@ -40,7 +40,6 @@ export default class ContactForm extends Component {
           <input
             className={styles.TaskEditor_input}
             type="number"
-            // pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"
             placeholder="123-45-67"
             name="number"
             value={this.state.number}

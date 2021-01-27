@@ -5,7 +5,6 @@ import ContactList from "./components/ContactList/ContactList";
 import Filter from "./components/Filter/Filter";
 import ContactForm from "./components/ContactForm/ContactForm";
 import storage from "./helpers/storage";
-// import baseContacts from './bd/baseContacts.json'
 
 export default class App extends Component {
   state = {
